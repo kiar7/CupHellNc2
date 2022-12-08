@@ -194,8 +194,7 @@ extension GameScene
                 }
             }
         }
-
-}
+    }
     
     func UpdateScore()
     {
@@ -259,17 +258,6 @@ extension GameScene
         printContent("Ciao")
     }
 }
-
-extension GameScene
-{
-    class GameManager: SKScene
-    {
-        var counterT = 0
-        var countTime = Timer()
-        var counterStartValue = 60
-    }
-}
-
 
 //MARK: GameManager
 extension GameScene
